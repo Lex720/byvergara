@@ -1,0 +1,1074 @@
+@media (max-width : 1024px) and (orientation : portrait) {
+	
+.slider {
+	display:none;
+}
+
+.slider_portrait {
+	display:block;
+}
+}
+
+/* 769px - 1100px =================================================================================================================================== */
+
+@media (max-width: 1024px) {
+
+/* HEADER ======================================================== */
+
+.logo {
+	width:95%;
+}
+
+#social-sidebar {
+	display:none;
+}
+
+#social-sidebar2 {
+	display:block;
+}
+
+/* NAV ======================================================== */
+
+nav {
+	width:100%;
+}
+
+/* SLIDER ======================================================== */
+
+.slider {
+	width:100%;
+}
+
+.slider_portrait {
+	width:100%;
+}
+
+.slider2 {
+	width:95%;
+}
+
+/* NOSOTROS ======================================================== */
+
+.nosotros {
+	width:100%;
+}
+
+.nosotros-menu {
+	width:100%;
+}
+
+/* GALERIA ======================================================== */
+
+.galeria {
+	width:100%;
+}
+
+.galeria-menu {
+	width:60%;
+}
+
+/* NOTICIAS ======================================================== */
+
+.noticias {
+	width:100%;
+}
+
+.instagram {
+	width:100%;
+}
+
+.social {
+	width:100%;
+}
+
+.articulos {
+	width:100%;
+}
+
+.articulos p {
+	padding:0 5% 0 5%;
+}
+
+/* CATALOGO ======================================================== */
+
+.catalogo-libro {
+	width:100%;
+}
+
+.libro-nav {
+	width:100%;
+}
+
+.catalogo-productos {
+	width:100%;
+}
+
+.catalogo-menu {
+	width:100%;
+}
+
+/* LOCALIDADES ======================================================== */
+
+.localidades {
+	width:100%;
+}
+
+/* CONTACTANOS ======================================================== */
+
+.contactanos {
+	width:100%;
+}
+
+/* ACTUALIZACION ======================================================== */
+
+.actualizacion {
+	width:100%;
+}
+
+/* VIP1 ======================================================== */
+
+.vip1 {
+	width:100%;
+}
+
+.vip1-text {
+	width:100%;
+}
+
+/* VIP ======================================================== */
+
+.vip {
+	width:100%;
+}
+
+/* UNETE ======================================================== */
+
+.unete {
+	width:100%;
+}
+	
+/* FOOTER ======================================================== */
+
+.seccion1 {
+	width:100%;
+}
+
+
+.seccion2 {
+	width:100%;
+}
+
+.seccion3 {
+	width:100%;
+}
+
+}
+
+/* 581px - 768px =================================================================================================================================== */
+
+@media (max-width: 768px) {
+	
+.overlay-capa {
+	display:none;
+}
+	
+/* NAV ======================================================== */
+
+.nav {
+	background: #777;
+	overflow: visible;
+}
+
+#nav-trigger {
+    display: block; 
+}
+
+nav#nav-main {
+    display: none;
+}
+
+nav#nav-mobile {
+    display: block; 
+}
+
+/* TITULOS ======================================================== */ /*AQUI*/
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.7em;	
+}
+
+h3 {
+	font-size:1.4em;
+}
+
+h4 {
+	font-size:1.4em;
+}
+
+h5 {
+	font-size:1.3em;
+}
+
+/* BOTONES ======================================================== */ /*AQUI*/
+
+.verde {
+	font-size:1.2em;	
+}
+
+.negro {
+	font-size:1.2em;
+}
+
+/* SLIDER ======================================================== */ /*AQUI*/
+
+.slider_portrait {
+	width:80%;
+}
+
+.slider2 {
+	width:90%;
+}
+
+/* NOSOTROS ======================================================== */
+
+.nosotros { /*AQUI*/
+	height:670px;
+}
+
+.nosotros p { /*AQUI*/
+	font-size: 1.1em; 
+}
+
+.nosotros img {
+	display:none;
+}
+
+.nosotros1 {
+	width:100%;
+	height:90%;
+	background:none;
+}
+
+.nosotros2 {
+	display:none;
+}
+
+.nosotros-menu {
+	background:none;
+}
+
+.nosotros-menu1 { /*AQUI*/
+	width:80%;
+	height:31%;
+	margin-bottom:2%;
+	margin-left:10%;
+	border-left:none;
+	border-bottom: 1px solid #B4B4B4;
+	background:#777;
+}
+
+.nosotros-menu1:last-child {
+	border-bottom: none;
+}
+
+.nosotros-menu p {
+	font-size:1em; /*AQUI*/
+}
+
+.nosotros-menu a {
+	font-size:1em; /*AQUI*/
+	font-weight:500;
+}
+
+/* GALERIA ======================================================== */ /*AQUI*/
+
+.galeria p {
+	font-size: 1.2em;
+}
+
+.galeria-1 {
+	width:80%;
+	height:50%;	
+	margin:0 auto;
+	padding:2% 1% 2% 1%;
+	float:none;
+}
+
+.galeria-2 {
+	width:80%;
+	height:50%;
+	margin:0 auto;
+	padding:2% 1% 2% 1%;
+	float:none;
+}
+
+.galeria-2 p {
+	font-size:1em;
+}
+
+.galeria1 { /*NO*/
+	width:100%;
+	height:90%;
+	padding: 5% 0 5% 0;
+}
+
+.galeria1 img {
+	width:70%;
+	margin:3% 15% 3% 15%;
+}
+
+.galeria-menu {
+	width:80%;
+	margin:0 auto;
+	
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.galeria-menu p {
+	font-size:1em;
+}
+
+.galeria-menu a {
+	font-size:1.1em;
+}
+
+/* NOTICIAS ======================================================== */ /*AQUI*/
+
+.noticias {
+	height:auto;
+	margin-bottom:5%;	
+}
+
+.noticias-contenedor {
+	height:auto;
+	padding:2% 2% 2% 2%;
+	margin-bottom:3%;
+}
+
+.noticias-contenedor-text {
+	width:100%;
+	height:auto;
+	padding:0;
+	float:none;
+	margin-bottom:4%;
+}
+
+.noticias-contenedor-text2 {
+	width:100%;
+	height:auto;
+	padding:0;
+	float:none;
+	margin-bottom:4%;
+}
+
+.noticias-contenedor-img {
+	width:100%;
+	height:auto;
+	float:none;
+}
+
+.noticias-contenedor-img2 {
+	width:100%;
+	height:auto;
+	float:none;
+}
+
+.noticias-contenedor p {
+	font-size:1.1em;
+}
+
+.noticias-contenedor a {
+	font-size:1.1em;
+}
+
+.noticias-contenedor a:hover {
+	color: #444;
+}
+
+.social { /*NO*/
+	height:1300px; 	
+}
+
+.social-fb {
+	width:70%;
+	height:50%;
+	float:none;
+	padding:0;
+	padding:0 0 0 0;
+	margin:0 auto;
+}
+
+.social-twt {
+	width:70%;
+	height:50%;
+	float:none;
+	padding:0 0 0 0;
+	margin:0 auto;
+}
+
+.articulos p {
+	font-size:1.1em;
+}
+
+/* CATALOGO ======================================================== */
+
+.catalogo-libro { /*AQUI*/
+	height:500px; 	
+}
+
+/* LOOKBOOK */
+#about h3 {
+	display: none;
+}
+#about ul {
+	display: none;
+}
+nav2 li {
+	float: left;
+	width: 40px;
+}
+nav2#center {
+	width: 220px;
+	margin: 0;
+}
+nav2#right {
+	float: right;
+	width: 130px;
+}
+nav2#right li {
+	width: 30px;
+	margin: 0;
+}
+/* END */
+
+.catalogo-productos p { /*AQUI*/
+	font-size:1.2em;
+}
+
+.catalogo-menu p { /*AQUI*/
+	font-size:1em;
+}
+
+.catalogo-menu a { /*AQUI*/
+	font-size:1.1em;
+}
+
+/* LOCALIDADES ======================================================== */ /*AQUI*/
+
+.localidades a {
+	font-size: 1.1em;
+}
+
+.localidades p {
+	font-size: 1.1em;
+}
+
+/* CONTACTANOS ======================================================== */
+
+.contactanos { /*AQUI*/
+	height:900px; 	
+}
+
+.contactanos p { /*AQUI*/
+	font-size:1.2em;
+}
+
+.contactanos1 {
+	width:100%;
+	float:none;
+	padding:0;
+}
+
+.formulario { /*AQUI*/
+	font-size:1.2em;
+}
+
+.contactanos2 {
+	display:none;
+}
+
+/* ACTUALIZACION ======================================================== */
+
+.actualizacion { /*AQUI*/
+	height:100%; 	
+}
+
+.actualizacion p { /*AQUI*/
+	font-size:1.2em;
+}
+
+.actualizacion1 {
+	width:100%;
+	float:none;
+	padding:0;
+}
+
+.actualizacion2 {
+	display:none;
+}
+
+/* VIP1 ======================================================== */
+
+.vip1 {
+	height:550px; 
+}
+
+.vip1-1 {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	float:none;
+}
+
+.vip1-2 {
+	display:none;
+}
+
+.vip1-text  p {
+	font-size:1em;
+}
+
+.vip1-text  ul {
+	font-size:1em;
+}
+
+/* VIP ======================================================== */
+
+.vip-box {
+	width:47%;
+}
+
+/* UNETE ======================================================== */
+
+.unete p { /*AQUI*/
+	font-size:1.2em;
+}
+
+.unete1 {
+	width:100%;
+	height:40%;
+	float:none;
+	padding:0;
+	border-right:none;
+}
+
+.unete2 {
+	width:100%;
+	height:40%;
+	float:none;
+	padding:0;
+}
+
+/* EMPLEO ======================================================== */
+
+.empleo {
+	width: 100%;
+}
+
+.empleo p {
+	font-size: 1.2em;
+}
+	
+/* FOOTER ======================================================== */ /*AQUI*/
+
+.seccion2 a {
+	font-size:1.2em;
+}
+
+.seccion2 a:hover {
+	color:#999;
+}
+
+.seccion1a {
+	width:80%;
+	height:30%;
+	margin:1.5% 10% 1.5% 10%;
+}
+
+.seccion2a {
+	width:50%;
+	height:33%;
+	float:left;
+	display:inline-block;
+	padding:5% 20% 5% 20%;
+}
+
+.seccion2a p {
+	font-size:1.2em;
+}
+
+.seccion2b {
+	width:100%;
+	height:33%;
+	padding:0 10% 0 10%;
+	border-top:3px solid #d3d5d5;
+	margin-bottom:2%;
+}
+
+.seccion2b li {
+	font-size:1.2em;
+}
+
+.seccion2c {
+	width:100%;
+	height:33%;
+	border-top:3px solid #d3d5d5;
+	margin-bottom:2%;
+	padding: 0 1% 0 1%;
+}
+
+.seccion2c p {
+	font-size:1.2em;
+	padding:3% 0 0 0;
+}
+
+.seccion3 {
+	padding: 0 2% 0 2%;
+}
+
+.seccion3 p {
+	font-size:1.2em;
+	display:inline-block;
+}
+
+.seccion3 a {
+	font-size:1.2em;
+}
+
+.seccion3 img {
+	width:30%;
+}
+
+.seccion3a {
+	width:100%;
+	height:auto;
+	padding-right:0;
+	float:none;
+	border-right:none;
+}
+
+.seccion3b {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	float:none;
+}
+
+}
+
+/* 320px a 480px =================================================================================================================================== */
+
+@media (max-width: 480px) {
+	
+/* TITULOS ======================================================== */
+
+h1 {
+	font-size:1.8em;
+}
+
+h2 {
+	font-size:1.5em;	
+}
+
+h3 {
+	font-size:1.2em;
+}
+
+h4 {
+	font-size:1.2em;
+}
+
+h5 {
+	font-size:1.1em;
+}
+
+/* BOTONES ======================================================== */
+
+.verde {
+	font-size:1.1em;	
+}
+
+.negro {
+	font-size:1.1em;
+}
+
+/* SLIDER ======================================================== */
+
+.slider_portrait {
+	width:100%;
+}
+
+.slider2 {
+	width:100%;
+}
+
+/* NOSOTROS ======================================================== */
+
+.nosotros {
+	height:600px; 	
+}
+
+.nosotros p {
+	font-size: 1.1em;
+}
+
+.nosotros img {
+	display:none;
+}
+
+.nosotros video {
+	width:100%;
+	height:auto;
+	margin:0 0% 0 0%;
+}
+
+.nosotros1 {
+	width:100%;
+	height:90%;
+	background:none;
+}
+
+.nosotros2 {
+	display:none;
+}
+
+.nosotros-menu {
+	background:none;
+}
+
+.nosotros-menu1 {
+	width:100%;
+	height:31%;
+	margin:0 0 2% 0;
+	border-left:none;
+	border-bottom: 1px solid #B4B4B4;
+	background:#777;
+}
+
+.nosotros-menu1:last-child {
+	border-bottom: none;
+}
+
+.nosotros-menu p {
+	font-size:1.1em;
+}
+
+.nosotros-menu a {
+	font-size:1em;
+	font-weight:500;
+}
+
+/* GALERIA ======================================================== */
+
+.galeria p {
+	font-size: 1.1em;
+}
+
+.galeria-1 {
+	width:100%;
+}
+
+.galeria-2 {
+	width:100%;
+}
+
+.galeria-2 p {
+	font-size:1.1em;
+}
+
+.galeria1 {
+	width:100%;
+	height:90%;
+	padding: 5% 0 5% 0;
+}
+
+.galeria1 img {
+	width:80%;
+	margin:3% 10% 3% 10%;
+}
+
+.galeria-menu {
+	width:100%;
+	
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.galeria-menu p {
+	font-size:1.1em;
+}
+
+.galeria-menu a {
+	font-size:1.1em;
+}
+
+/* NOTICIAS ======================================================== */
+
+.noticias-contenedor p {
+	font-size:1.1em;
+}
+
+.noticias-contenedor img {
+	width:98%;
+	margin:0 1% 0 1%;
+}
+
+.noticias-contenedor a {
+	font-size:1.1em;
+}
+
+.noticias-contenedor a:hover {
+	color: #444;
+}
+
+.social {
+	height:1300px; 	
+}
+
+.social-fb {
+	width:100%;
+	height:50%;
+	float:none;
+	padding:0;
+	padding:0 0 10% 0;
+}
+
+.social-twt {
+	width:100%;
+	height:50%;
+	float:none;
+	padding:10% 0 0 0;
+}
+
+.articulos p {
+	font-size:1.1em;
+}
+
+/* CATALOGO ======================================================== */
+
+.catalogo-libro {
+	height:300px; 	
+}
+
+/* LOOKBOOK */
+#about h3 {
+	display: none;
+}
+#about ul {
+	display: none;
+}
+nav2 li {
+	float: left;
+	width: 40px;
+}
+nav2#center {
+	width: 220px;
+	margin: 0;
+}
+nav2#right {
+	float: right;
+	width: 130px;
+}
+nav2#right li {
+	width: 30px;
+	margin: 0;
+}
+/* END */
+
+.catalogo-productos p {
+	font-size:1.1em;
+}
+
+.catalogo-menu p {
+	font-size:1.1em;
+}
+
+.catalogo-menu a {
+	font-size:1em;
+}
+
+/* LOCALIDADES ======================================================== */
+
+#map_canvas {
+    height:320px;
+}
+
+.localidades a {
+	font-size: 1.1em;
+}
+
+.localidades p {
+	font-size: 1.1em;
+}
+
+/* CONTACTANOS ======================================================== */
+
+.contactanos {
+	height:100%;
+	overflow:hidden;	
+}
+
+.contactanos p {
+	font-size:1.1em;
+}
+
+.formulario {
+	font-size:1.1em;
+}
+
+/* ACTUALIZACION ======================================================== */
+
+.actualizacion {
+	overflow:hidden;
+}
+
+.actualizacion p {
+	font-size:1.1em;
+}
+
+/* VIP1 ======================================================== */
+
+.vip1 {
+	height:100%; 
+}
+
+.vip1-1a {
+	width:100%;
+	float:none;
+	margin:0;
+}
+
+.vip1-1b {
+	width:100%;
+	float:none;
+	margin:0;
+}
+
+.vip1-text {
+	padding:0 2% 0 2%;
+}
+
+.vip1-text  p {
+	font-size:1.1em;
+}
+
+.vip1-text  ul {
+	font-size:1.1em;
+}
+
+/* VIP ======================================================== */
+
+.vip-box {
+	width:98%;
+	height:100%;
+	margin:0 auto;
+	margin-bottom:5%;
+}
+
+.vip-box p {
+	font-size:1.3em;
+}
+
+.vip p {
+	font-size:1.1em;
+}
+
+/* UNETE ======================================================== */
+
+.unete p {
+	font-size:1.1em;
+}
+
+.unete1 {
+	width:100%;
+	height:40%;
+	float:none;
+	padding:0;
+	border-right:none;
+}
+
+.unete2 {
+	width:100%;
+	height:40%;
+	float:none;
+	padding:0;
+}
+	
+/* FOOTER ======================================================== */
+
+.seccion2 a {
+	font-size:1em;
+}
+
+.seccion2 a:hover {
+	color:#999;
+}
+
+.seccion1a {
+	width:100%;
+	height:30%;
+	margin:1.5% 0 1.5% 0;
+}
+
+.seccion2a {
+	width:50%;
+	height:33%;
+	float:left;
+	display:inline-block;
+	padding:5% 7.5% 5% 7.5%;
+}
+
+.seccion2a p {
+	font-size:1em;
+}
+
+.seccion2b {
+	width:100%;
+	height:33%;
+	padding:0;
+	border-top:3px solid #d3d5d5;
+	margin-bottom:2%;
+}
+
+.seccion2b li {
+	font-size:1em;
+}
+
+.seccion2c {
+	width:100%;
+	height:33%;
+	border-top:3px solid #d3d5d5;
+	margin-bottom:2%;
+	padding: 0 1% 0 1%;
+}
+
+.seccion2c p {
+	font-size:1.1em;
+	padding:3% 0 0 0;
+}
+
+.seccion3 {
+	padding: 0 1% 0 1%;
+}
+
+.seccion3 p {
+	font-size:1.1em;
+}
+
+.seccion3 a {
+	font-size:1.3em;
+}
+
+.seccion3 img {
+	width:25%;
+}
+	
+}
+

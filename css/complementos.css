@@ -1,0 +1,407 @@
+/* Fuentes de estilo Texto ======================================================== */
+
+@font-face {
+	font-family: 'Humanst521';
+	src:url('../fonts/tt0288m.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Humanst521';
+	src:url('../fonts/tt0289m.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Humanst521';
+	src:url('../fonts/tt0290m.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* GRAYSCALE ======================================================== */
+
+.grayscale img {
+	filter: grayscale(100%);
+	filter: gray;
+	
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.grayscale img:hover {
+	filter: grayscale(0%);
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.grayscale2 img {
+	filter: grayscale(0%);
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.grayscale2 img:hover {
+	filter: grayscale(100%);
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+/* Social Sidebar ======================================================== */
+
+/* ---------- GENERAL ---------- */
+#social-sidebar a { text-decoration: none; }
+
+#social-sidebar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+/* ---------- Social Sidebar ---------- */
+#social-sidebar {
+left: 0;
+margin-top: -75px; /* (li * a:width) / -2 */
+position: fixed;
+top: 50%;
+}
+
+#social-sidebar ul li:first-child a { border-radius: 0 5px 0 0; }
+#social-sidebar ul li:last-child a { border-radius: 0 0 5px 0; }
+
+#social-sidebar ul li a {
+background: #121212;
+color: #ddd;
+display: block;
+height: 50px;
+font-size: 18px;
+line-height: 50px;
+position: relative;
+text-align: center;
+width: 50px;
+}
+
+#social-sidebar ul li a:hover span {
+left: 120%;
+opacity: 1;
+}
+
+#social-sidebar ul li a span {
+border-radius: 5px;
+line-height: 24px;
+left: -100%;
+margin-top: -16px;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+opacity: 0;
+padding: 4px 8px;
+position: absolute;
+-webkit-transition: opacity .3s, left .4s;
+-moz-transition: opacity .3s, left .4s;
+-ms-transition: opacity .3s, left .4s;
+-o-transition: opacity .3s, left .4s;
+transition: opacity .3s, left .4s;
+top: 50%;
+z-index: -1;
+}
+
+#social-sidebar ul li a span:before {
+content: "";
+display: block;
+height: 8px;
+left: -4px;
+margin-top: -4px;
+position: absolute;
+top: 50%;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+width: 8px;
+z-index: -2;
+}
+
+#social-sidebar ul li a[class*="twitter"]:hover,
+#social-sidebar ul li a[class*="twitter"] span,
+#social-sidebar ul li a[class*="twitter"] span:before { background: #6CDFEA; z-index: 2; }
+
+#social-sidebar ul li a[class*="mail"]:hover,
+#social-sidebar ul li a[class*="mail"] span,
+#social-sidebar ul li a[class*="mail"] span:before { background: #E34429; z-index: 2; }
+
+#social-sidebar ul li a[class*="pinterest"]:hover,
+#social-sidebar ul li a[class*="pinterest"] span,
+#social-sidebar ul li a[class*="pinterest"] span:before { background: #F66; z-index: 2; }
+
+#social-sidebar ul li a[class*="facebook"]:hover,
+#social-sidebar ul li a[class*="facebook"] span,
+#social-sidebar ul li a[class*="facebook"] span:before { background: #234999; z-index: 2; }
+
+#social-sidebar ul li a[class*="video"]:hover,
+#social-sidebar ul li a[class*="video"] span,
+#social-sidebar ul li a[class*="video"] span:before { background: #C60000; z-index: 2; }
+
+#social-sidebar ul li a[class*="instagrem"]:hover,
+#social-sidebar ul li a[class*="instagrem"] span,
+#social-sidebar ul li a[class*="instagrem"] span:before { background: #EAAF00; z-index: 2; }
+
+/* Social Sidebar2 ======================================================== */
+
+/* ---------- GENERAL ---------- */
+#social-sidebar2 a { text-decoration: none; }
+
+#social-sidebar2 ul {
+display: inline-block;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+/* ---------- Social Sidebar ---------- */
+#social-sidebar2 {
+display: none;
+width: 360px;
+height: 100%;
+margin: 0 auto;
+position: relative;
+}
+
+#social-sidebar2 ul li:first-child a { border-radius: 5px 0 0 5px; }
+#social-sidebar2 ul li:last-child a { border-radius: 0 5px 5px 0; }
+
+#social-sidebar2 ul li {
+float: left;
+}
+
+#social-sidebar2 ul li a {
+width: 60px;
+height: 50px;
+background: #121212;
+color: #ddd;
+display: block;
+font-size: 18px;
+line-height: 50px;
+position: relative;
+text-align: center;
+}
+
+#social-sidebar2 ul li a span:before {
+content: "";
+display: block;
+height: 8px;
+left: -4px;
+margin-top: -4px;
+position: absolute;
+top: 50%;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+width: 8px;
+z-index: -2;
+}
+
+#social-sidebar2 ul li a[class*="twitter"]:hover,
+#social-sidebar2 ul li a[class*="twitter"] span,
+#social-sidebar2 ul li a[class*="twitter"] span:before { background: #6CDFEA; z-index: 2; }
+
+#social-sidebar2 ul li a[class*="mail"]:hover,
+#social-sidebar2 ul li a[class*="mail"] span,
+#social-sidebar2 ul li a[class*="mail"] span:before { background: #E34429; z-index: 2; }
+
+#social-sidebar2 ul li a[class*="pinterest"]:hover,
+#social-sidebar2 ul li a[class*="pinterest"] span,
+#social-sidebar2 ul li a[class*="pinterest"] span:before { background: #F66; z-index: 2; }
+
+#social-sidebar2 ul li a[class*="facebook"]:hover,
+#social-sidebar2 ul li a[class*="facebook"] span,
+#social-sidebar2 ul li a[class*="facebook"] span:before { background: #234999; z-index: 2; }
+
+#social-sidebar2 ul li a[class*="video"]:hover,
+#social-sidebar2 ul li a[class*="video"] span,
+#social-sidebar2 ul li a[class*="video"] span:before { background: #C60000; z-index: 2; }
+
+#social-sidebar2 ul li a[class*="instagrem"]:hover,
+#social-sidebar2 ul li a[class*="instagrem"] span,
+#social-sidebar2 ul li a[class*="instagrem"] span:before { background: #EAAF00; z-index: 2; }
+
+/* Gallery ======================================================== */
+
+/* This rule is read by Galleria to define the gallery height: */
+.galleria{height:700px}
+
+/* OVERLAY ======================================================== */
+
+.overlay {
+	display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.85);
+    background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9;
+    z-index:9999;
+    color:white;
+	text-align: center;
+}
+ 
+.overlay:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.txt {
+    display: inline-block;
+    vertical-align: middle;
+    padding:0;
+	margin:0;
+    position:relative;
+    font-weight:bold;
+	text-align:center;
+}
+
+.txt p {
+	font-family:"Humanst521";
+	font-size:1em;
+	color:#EEE;
+	letter-spacing:1px;
+	padding:0;
+	margin:8px 0 0 0;	
+}
+
+.txt2 {
+	width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding:0;
+	margin:0 0 0 140px;
+    position:relative;
+    font-weight:bold;
+	text-align:center;
+}
+
+.txt2 p {
+	font-family:"Humanst521";
+	font-size:1em;
+    font-weight:bold;
+	color:#EEE;
+	letter-spacing:1px;
+	padding:0;
+	margin:8px 0 0 0;	
+}
+
+.txt2 img {
+	width: 35px;
+	height: auto;
+	padding:0;
+	margin:0;
+	margin-right: 5px;
+}
+
+.txt2 img:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.txt2a {
+    width: auto;
+    height: 70%;
+    padding:80px 0 0 0;
+	margin:0;
+    position:relative;
+	text-align:center;
+}
+
+.txt2b {
+    width: auto;
+    height: 20%;
+    padding:15px 0 0 0;
+	margin:0;
+    position:relative;
+	text-align:center;
+}
+
+.overlay2 {
+	display:none;
+    position:fixed;
+	width:640px;
+	height:480px;
+	margin:0 auto;
+    top:15%;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.85);
+    background:url(../img/overlay/popup.png);
+    z-index:9999;
+    color:white;
+	padding:0;
+}
+
+.overlay2:before {
+    content: '';
+    display: inline-block;
+    height: 10%;
+    vertical-align: middle;
+    margin-right: 0;
+}
+
+.overlay-capa {
+	display:block;
+	width:auto;
+	height:auto;
+}
+
+.overlay-cerrar {
+	width:28px;
+	height:28px;
+    display: inline-block;
+	cursor:pointer;
+    padding: 0;
+	margin:1.5% 0 0 94%;
+    position: absolute;
+	background:url(../img/overlay/close.png);
+}

@@ -1,0 +1,17 @@
+- Map mapa de google
+
+- 3D Grid imagenes de productos en overlay con efecto
+
+- Flipbook catalogo de imagenes
+
+Nav mobile:
+- jquery-1.9.1.min y modernizr.custom
+
+Snow Effect:
+- jquery.snow.min.1.0
+
+Instagram Plugin
+- instafeed.min
+
+*nota: jquery-1.9.1.min se quita donde este el bxslider y el catalo libro
+*nota: modernizr.custom se quita en el GRID de imagenes de overlay
